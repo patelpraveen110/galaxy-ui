@@ -50,7 +50,6 @@ function App() {
             <Route path="/logout" element={<FindBooking />} />
           </Routes>
         </Router>
-        {/* <Footer /> */}
       </main>
     </AuthProvider>
   );

@@ -19,10 +19,9 @@ const HotelService = () => {
 
         <Row className="mt-4">
           <h4 className="text-center">
-            Services at <span className="hotel-color"> Hotel - </span>Galaxy
-            <span className="gap-2">
-              <FaClock className="ml-5" /> 24-Hour Front Desk
-            </span>
+            Services at <span className="hotel-color"> Hotel </span>Galaxy 24x7
+            Front Desk
+            <span className="gap-2">{/* <FaClock className="ml-5" />  */}</span>
           </h4>
         </Row>
         <hr />
@@ -35,7 +34,8 @@ const HotelService = () => {
                   <FaWifi /> WiFi
                 </Card.Title>
                 <Card.Text>
-                  Stay connected with high-speed internet access.
+                  Stay connected with high-speed internet access across the
+                  hotel campus.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -47,7 +47,8 @@ const HotelService = () => {
                   <FaUtensils /> Breakfast
                 </Card.Title>
                 <Card.Text>
-                  Start your day with a delicious breakfast buffet.
+                  Start your day with a delicious and unlimited breakfast
+                  buffet.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -83,7 +84,7 @@ const HotelService = () => {
                   <FaParking /> Parking
                 </Card.Title>
                 <Card.Text>
-                  Park your car conveniently in our on-site parking lot.
+                  Park your vahicles conveniently in our on-site parking lot.
                 </Card.Text>
               </Card.Body>
             </Card>
