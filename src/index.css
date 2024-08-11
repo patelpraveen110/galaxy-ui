@@ -4,9 +4,7 @@ body {
 .card {
   opacity: 0.9;
 }
-
-/* Navigation bar definitions */
- .navbar{
+.navbar{
   padding: 0;
  }
  .navbar .navbar-nav .nav-link{
